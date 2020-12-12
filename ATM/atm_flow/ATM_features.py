@@ -4,7 +4,6 @@ import time
 ######bank account class with methods for getting balance, withdrawing and depositing cash############# 
 class account(object):
 	def __init__(self,account_number,account_type,starting_balance):
-		#self.id = 'atm1'
 		self.account_number = object
 		self.account_type = account_type
 		self.balance = starting_balance
@@ -139,9 +138,5 @@ def ATM():
 	return None
 
 if __name__ == '__main__':
-
-	###tests
-	
-
 	ATM()
 	
